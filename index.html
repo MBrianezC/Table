@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Table Project - MBrianezC</title>
+    </head>
+    <body>
+    <header><h1>How to create a table in HTML and manage them correctly</h1></header>
+       <p>Creating a table in html can be challenging for begginers,
+         but understanding its structure makes the process much easier!
+       </p>
+       <h3 class="structure">Structure</h3>
+       <p>Since a table is an <b><em>HTML tag</em></b>, it is important to first understand how a basic html structure works. <a href="#">Learn more about it here</a></p>
+       <p>Once you learned how HTML tag works, you are 70% ready to make your tables.</p>
+       
+       <h3 class="understanding">Understanding</h3>
+       <p>First of all, create in a tag inside the &lt;body&gt; called &lt;table&gt;.</p>
+       <p>In the HTML structure, you need a tag that defines what will happen.<br>
+        When you type &lt;table&gt; nothing appears on the website yet, but the code is already set up to begin the magic.</p>
+        <br>
+        <h3 id="thead">&lt;thead&gt;</h3>
+           <p>Like in HTML, it sets the head. 'T' stands for table.</p>
+        <h3>&lt;tbody&gt;</h3>
+            <p>Like in HTML, it sets the body. 'T' stands for table.</p>
+        <h3>&lt;tfoot&gt;</h3>
+            <p>Like in HTML, it sets the footer. 'T' stands for table.</p>
+        <br><br>
+        <h3>You might be wondering, what about the tags for adding content?</h3>
+        <p>If you have already learned about &lt;ul&gt; and &lt;ol&gt; you know they define lists,
+             while &lt;li&gt; element contains the actual list items.</p>
+        <p>Similarly, for table, we use <b>&lt;tr&gt;</b> to define <em>rows</em> inside the code and <b>&lt;td&gt;</b> to show they <em>content</em> in the web browser.</p>
+        <h3>Almost there</h3>
+        <p>We are two step to begin creating tables, you need to know about sub-structure needs.</p>
+        <ul>
+            <li><b>THEAD AND TH</b></li>
+        </ul>
+        <p>The &lt;th&gt; element is needed to set what is coming at the <a href="#thead">table head</a> content. 
+            Instead of using the <em>&lt;td&gt;</em>,<b> you have to use <b>&lt;th&gt;</b></b></p><br>
+
+        <div class="final">
+            <h2>TABLE?</h2>
+            <p>Let put all in practice and see what happens:</p>
+                <table>
+                    <thead>      
+                        <tr>
+                            <th>Here I use the &lt;th&gt; tag</th>
+                            <th>This is another example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;td&gt; tag in use!</td>
+                            <td>Another &lt;td&gt; just to fill</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>This is the footer part</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            <br>
+            <p>You might wondering, is that serious?</p>
+            <p>Well, a raw HTML is not that beautiful, let change some things using CSS!</p>
+            <table class="second_table">
+                <thead>      
+                    <tr>
+                        <th>Here I use the &lt;th&gt; tag</th>
+                        <th>This is another example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;td&gt; tag in use!</td>
+                        <td>Another &lt;td&gt; just to fill</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>This is the footer part</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>   
+        
+    
+    </body>
+</html
